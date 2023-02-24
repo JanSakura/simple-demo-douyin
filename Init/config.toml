@@ -1,0 +1,26 @@
+#MYSQL关系型数据库配置
+[mysql]
+host = "127.0.0.1"
+port = 3306
+database = "douyin"
+username = "root"
+password = "123456"
+charset = "utf8mb4"
+parse_time = true
+loc = "Local"
+
+#reids nosql数据库配置
+[redis]
+host = "127.0.0.1"
+port = 6379
+database = 0
+
+#当前服务器的ip和启动端口号，ip用于生成对应的视频链接地址
+[server]
+ip = "10.0.75.196"
+port = 8080
+
+#保存资源路径，截图工具ffmpeg路径 ,其实可以配置成系统变量；考虑到有些人没装ffmpeg
+[path]
+ffmpeg_path = "C:\\NormalInstall\\ffmpeg5.1.2\\bin\\ffmpeg.exe"
+static_source_path = "C:\\Users\\Administrator\\go\\src\\github.com\\JanSakura\\simple-demo-douyin\\static\\static"
