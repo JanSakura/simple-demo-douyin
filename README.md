@@ -20,3 +20,4 @@ go run ./main.go
 * service调用dao ，有需要的使用Redis做缓存，对得到的数据进行操作；FFmpeg文件存在lib
 * dao抽象并返回对应models的CRUD结果
 * cache初始化Redis，并实现Redis的数据库操作
+* 上传的文件存在static里
